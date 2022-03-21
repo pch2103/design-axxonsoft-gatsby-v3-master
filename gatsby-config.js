@@ -6,11 +6,11 @@ const languages = require('./src/data/languages');
 
 module.exports = {
   siteMetadata: {
-    title: 'Design ITVGROUP',
+    title: 'Design AxxonSoft',
     siteUrl: 'https://www.design-axxonsoft.com',
-    description: `ITVGROUP Design materials, ITVGROUP identity guide`,
+    description: `Axxonsoft Design materials, Axxonsoft identity guide`,
     image: "/images/favicon.png",
-    author: [`@ITVGROUP`, '@Design_Dep', '@'],
+    author: [`@AxxonSoft`, '@Design_Dep', '@'],
     languages
   },
   plugins: [
@@ -43,8 +43,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `ITVGROUP. Design Materials`,
-        short_name: `ITVGROUP`,
+        name: `Axxonsoft Ltd. Design Materials`,
+        short_name: `Axxonsoft Ltd.`,
         start_url: `/`,
         icon: `src/images/favicon.png`,
         background_color: `#ffffff`,
@@ -66,7 +66,6 @@ module.exports = {
       options: {
         spaceId: process.env.CONTENTFUL_SPACE_ID,
         accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
-        environment: process.env.CONTENTFUL_ENVIRONMENT,
       },
     },
     {
