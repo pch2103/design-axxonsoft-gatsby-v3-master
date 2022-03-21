@@ -1,16 +1,16 @@
 if (process.env.NODE_ENV === "development") {
   require("dotenv").config();
 }
-
+require("dotenv").config();
 const languages = require('./src/data/languages');
 
 module.exports = {
   siteMetadata: {
-    title: 'Design AxxonSoft',
-    siteUrl: 'https://www.design-axxonsoft.com',
-    description: `Axxonsoft Design materials, Axxonsoft identity guide`,
+    title: 'Design ITVGROUP',
+    siteUrl: 'https://www.itv.ru',
+    description: `ITVGROUP Design materials, ITVGROUP identity guide`,
     image: "/images/favicon.png",
-    author: [`@AxxonSoft`, '@Design_Dep', '@'],
+    author: [`@ITVGROUP`, '@Design_Dep', '@'],
     languages
   },
   plugins: [
@@ -43,8 +43,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Axxonsoft Ltd. Design Materials`,
-        short_name: `Axxonsoft Ltd.`,
+        name: `ITVGROUP. Design Materials`,
+        short_name: `ITVGROUP Ltd.`,
         start_url: `/`,
         icon: `src/images/favicon.png`,
         background_color: `#ffffff`,
