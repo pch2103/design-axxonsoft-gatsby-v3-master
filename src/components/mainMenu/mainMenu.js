@@ -92,7 +92,7 @@ const MainMenu = (props) => {
 			() => data.allContentfulMainMenu.edges
 					.map(edge => ({
 								label: props.locale === 'en' ? edge.node.label : edge.node.labelRu,
-								link: `/${props.locale}${edge.node.link}`.replace('/en/', '/'),
+								link: `/${props.locale}${edge.node.link}`.replace('/ru/', '/'),
 								icon: edge.node.icon,
 								id: edge.node.id
 							})
