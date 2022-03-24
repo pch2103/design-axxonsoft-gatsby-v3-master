@@ -12,7 +12,7 @@ import ContentMenu from "../components/contentMenu/contentMenu";
 
 export default function (props) {
 	const pageSection = [
-		{label: 'Next4'},
+		{label: 'ITV Cloud'},
 		{label: 'Intellect'},
 		{label: 'Net'},
 	];
@@ -28,44 +28,36 @@ export default function (props) {
 
 						<Grid name={pageSection[0].label} container spacing={2}>
 							<Grid item xs={12}>
-								<ContentHeader title={'Next4'}/>
+								<ContentHeader title={'ITVCloud'}/>
 							</Grid>
 							<Grid item xs={12} sm={12}>
-								<PageCard cardName="Next4Logo" landscape={true}/>
+								<PageCard cardName="ITVCloudLogo" landscape={true}/>
 							</Grid>
 
 							<EndOfSection height={2}/>
 
 							<Grid container spacing={2}>
 								<Grid item xs={12} sm={4}>
-									<PageCard cardName="Next4inv"/>
+									<PageCard cardName="ITVCloudinv"/>
 								</Grid>
 								<Grid item xs={12} sm={4}>
-									<PageCard cardName="NextBackground"/>
+									<PageCard cardName="ITVCloudBackground"/>
 								</Grid>
 								<Grid item xs={12} sm={4}>
-									<PageCard cardName="Next4sign"/>
-								</Grid>
-							</Grid>
-
-							<EndOfSection height={2}/>
-
-							<Grid container spacing={2}>
-								<Grid item xs={12} sm={4}>
-									<PageCard cardName="Next4Start"/>
-								</Grid>
-								<Grid item xs={12} sm={4}>
-									<PageCard cardName="Next4Pro"/>
-								</Grid>
-								<Grid item xs={12} sm={4}>
-									<PageCard cardName="Next4Universe"/>
+									<PageCard cardName="ITVCloudsign"/>
 								</Grid>
 							</Grid>
 
 							<EndOfSection height={2}/>
 
 							<Grid item xs={12} sm={12}>
-								<PageCard cardName="Next4Interface" landscape={true}/>
+								<PageCard cardName="ITVCloudISX" landscape={true}/>
+							</Grid>
+
+							<EndOfSection height={2}/>
+
+							<Grid item xs={12} sm={12}>
+								<PageCard cardName="ITVCloudInterface" landscape={true}/>
 							</Grid>
 						</Grid>
 

@@ -17,6 +17,7 @@ module.exports = {
   'AxxonNext': 'Логотипы Axxon Next ',
   'LogoGroup': 'Логотипы Ipdrom, Noder, Рубикон',
   'Next4': 'Axxon Next 4',
+  'ITVCloud': 'ITV Cloud',
   'Intellect': 'Intellect',
   'Net': 'AxxonNet',
   'Brochures': 'Брошюры',
