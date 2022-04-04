@@ -18,6 +18,7 @@ module.exports = {
   'LogoGroup': 'Логотипы Ipdrom, Noder, Рубикон',
   'Next4': 'Axxon Next 4',
   'ITVCloud': 'ITV Cloud',
+  'IntellectX': 'Intellect X',
   'Intellect': 'Intellect',
   'Net': 'AxxonNet',
   'Brochures': 'Брошюры',

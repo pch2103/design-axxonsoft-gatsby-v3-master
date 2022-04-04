@@ -13,8 +13,8 @@ import ContentMenu from "../components/contentMenu/contentMenu";
 export default function (props) {
 	const pageSection = [
 		{label: 'ITV Cloud'},
+		{label: 'Intellect X'},
 		{label: 'Intellect'},
-		{label: 'Net'},
 	];
 
 	return (
@@ -55,39 +55,66 @@ export default function (props) {
 							</Grid>
 
 							<EndOfSection height={2}/>
-
-							<Grid item xs={12} sm={12}>
-								<PageCard cardName="ITVCloudInterface" landscape={true}/>
-							</Grid>
 						</Grid>
 
 						<EndOfSection/>
 
 						<Grid id={pageSection[1].label} item xs={12}>
-							<ContentHeader title={'Intellect'}/>
+							<ContentHeader title={'IntellectX'}/>
 							<Grid item xs={12} sm={12}>
-								<PageCard cardName="IntellectLogo" landscape={true}/>
+								<PageCard cardName="IntellectXLogo" landscape={true}/>
 							</Grid>
+
+							<EndOfSection height={2}/>
+
 							<Grid item xs={12} sm={12}>
-								<PageCard cardName="IntellectLiteLogo" landscape={true}/>
+								<PageCard cardName="ITVCloudInterface" landscape={true}/>
 							</Grid>
 
 							<EndOfSection height={2}/>
 
 							<Grid container spacing={2}>
 								<Grid item xs={12} sm={4}>
-									<PageCard cardName="IntellectLogoInv"/>
+									<PageCard cardName="IntellectXLogoInv"/>
 								</Grid>
 								<Grid item xs={12} sm={4}>
-									<PageCard cardName="IntellectBackground"/>
+									<PageCard cardName="IntellectXBackground"/>
 								</Grid>
 								<Grid item xs={12} sm={4}>
-									<PageCard cardName="IntellectSign"/>
+									<PageCard cardName="IntellectXSign"/>
 								</Grid>
 							</Grid>
 
 							<EndOfSection height={2}/>
+						</Grid>
 
+						<EndOfSection/>
+
+						<Grid id={pageSection[2].label} item xs={12}>
+							<ContentHeader title={'Intellect'}/>
+							<Grid item xs={12} sm={12}>
+								<PageCard cardName="AxxonNet" landscape={true}/>
+							</Grid>
+							<Grid item xs={12} sm={12}>
+								<PageCard cardName="IntellectLiteLogo" landscape={true}/>
+							</Grid>
+							<Grid item xs={12} sm={12}>
+								<PageCard cardName="AxxonNetRes" landscape={true}/>
+							</Grid>
+
+							<EndOfSection height={2}/>
+
+							<Grid container spacing={2}>
+								<Grid item xs={12} sm={4}>
+									<PageCard cardName="AxxoNetInv"/>
+								</Grid>
+								<Grid item xs={12} sm={4}>
+									<PageCard cardName="AxxonNetBackground"/>
+								</Grid>
+								<Grid item xs={12} sm={4}>
+									<PageCard cardName="AxxonNetSign"/>
+								</Grid>
+							</Grid>
 							<Grid container spacing={2}>
 								<Grid item xs={12} sm={4}>
 									<PageCard cardName="ACFAIntellect"/>
@@ -111,32 +138,6 @@ export default function (props) {
 								</Grid>
 								<Grid item xs={12} sm={4}>
 									<PageCard cardName="RailwayIntellect"/>
-								</Grid>
-							</Grid>
-						</Grid>
-
-						<EndOfSection/>
-
-						<Grid id={pageSection[2].label} item xs={12}>
-							<ContentHeader title={'Net'}/>
-							<Grid item xs={12} sm={12}>
-								<PageCard cardName="AxxonNet" landscape={true}/>
-							</Grid>
-							<Grid item xs={12} sm={12}>
-								<PageCard cardName="AxxonNetRes" landscape={true}/>
-							</Grid>
-
-							<EndOfSection height={2}/>
-
-							<Grid container spacing={2}>
-								<Grid item xs={12} sm={4}>
-									<PageCard cardName="AxxoNetInv"/>
-								</Grid>
-								<Grid item xs={12} sm={4}>
-									<PageCard cardName="AxxonNetBackground"/>
-								</Grid>
-								<Grid item xs={12} sm={4}>
-									<PageCard cardName="AxxonNetSign"/>
 								</Grid>
 							</Grid>
 
