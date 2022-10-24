@@ -93,10 +93,10 @@ export default function (props) {
 						<Grid id={pageSection[2].label} item xs={12}>
 							<ContentHeader title={'Intellect'}/>
 							<Grid item xs={12} sm={12}>
-								<PageCard cardName="AxxonNet" landscape={true}/>
+								<PageCard cardName="IntellectLogo" landscape={true}/>
 							</Grid>
 							<Grid item xs={12} sm={12}>
-								<PageCard cardName="IntellectLiteLogo" landscape={true}/>
+								<PageCard cardName="IntellectLiteLogonew" landscape={true}/>
 							</Grid>
 							<Grid item xs={12} sm={12}>
 								<PageCard cardName="AxxonNetRes" landscape={true}/>

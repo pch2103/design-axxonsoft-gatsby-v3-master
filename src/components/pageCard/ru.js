@@ -21,7 +21,7 @@ export default ({cardName, ...props}) => {
             file {
               url
             }
-          fluid(maxWidth: 700, quality: 90) {
+            fluid(maxWidth: 700, quality: 90) {
             	aspectRatio
             	base64
             	sizes
