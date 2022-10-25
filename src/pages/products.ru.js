@@ -99,20 +99,20 @@ export default function (props) {
 								<PageCard cardName="IntellectLiteLogonew" landscape={true}/>
 							</Grid>
 							<Grid item xs={12} sm={12}>
-								<PageCard cardName="AxxonNetRes" landscape={true}/>
+								<PageCard cardName="IntellectRes" landscape={true}/>
 							</Grid>
 
 							<EndOfSection height={2}/>
 
 							<Grid container spacing={2}>
 								<Grid item xs={12} sm={4}>
-									<PageCard cardName="AxxoNetInv"/>
+									<PageCard cardName="IntellectLogoInv"/>
 								</Grid>
 								<Grid item xs={12} sm={4}>
-									<PageCard cardName="AxxonNetBackground"/>
+									<PageCard cardName="IntellectNewBackground"/>
 								</Grid>
 								<Grid item xs={12} sm={4}>
-									<PageCard cardName="AxxonNetSign"/>
+									<PageCard cardName="IntellectNewSign"/>
 								</Grid>
 							</Grid>
 							<Grid container spacing={2}>
